@@ -49,3 +49,4 @@ add_compile_options(
 
 # Project Directories ------------------------------------------------------------------------------
 add_subdirectory(main)
+add_subdirectory(GitUtilities)

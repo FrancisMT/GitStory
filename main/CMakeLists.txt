@@ -9,4 +9,7 @@ add_executable(${PROJECT_NAME}
         userInterface/mainwindow.ui
 )
 
-target_link_libraries(${PROJECT_NAME} PRIVATE Qt5::Widgets)
+target_link_libraries(${PROJECT_NAME}
+        PRIVATE Qt5::Widgets
+        PRIVATE GitUtilities
+)
